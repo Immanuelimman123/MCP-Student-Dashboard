@@ -1,0 +1,15 @@
+
+[project]
+name = "mcp-student-dashboard"
+version = "0.1.0"
+description = "An interactive student dashboard built using FastMCP and Prefab UI"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=3.4.11",
+    "prefab-ui>=0.21.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
